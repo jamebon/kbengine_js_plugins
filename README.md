@@ -9,7 +9,46 @@ kbengine_js_plugins
 	便Cocos Creator开发的同学，本人对此脚本做了相应的修改，并共享出来。
 	1：修改了继承的实现方式（旧版本使用callee，严格模式下不能用callee）
 	2：变量名的定义（严格模式下，全局变量需要显式声明，并且为了防止全局命名污染，因此在变量名前加入了var声明为局部变量）
+	3：导出KBEngine对象
+	4：集成GameObject在该插件中
+	
+在Cocos Creator使用此脚本的步骤（2017/7/6）
+---------------------
+	1：复制此脚本到Creator新建的工程的脚本目录下（不要使用插件模式），请参考cocos官方文档：
+	http://www.cocos.com/docs/creator/scripting/plugin-scripts.html
+	http://www.cocos.com/docs/creator/scripting/third-party-module.html
+	
+	2：然后可以定义自己的实体类文件例如，Account.js 
+	var KBEngine = require("kbengine");//使用require引入KBEngine
+	/*-----------------------------------------------------------------------------------------
+													entity
+	-----------------------------------------------------------------------------------------*/
+	KBEngine.Account = KBEngine.GameObject.extend(
+	{
+		__init__ : function()
+		{
+			this._super();
+			KBEngine.Event.fire("onLoginSuccessfully", KBEngine.app.entity_uuid, this.id, this);
+		},
+	}
+	3：或者在cocos creator的组件类里面使用，例如：ClientApp.js
+	var KBEngine = require("kbengine");//使用require引入KBEngine
+	cc.Class({
+		extends: cc.Component,
 
+		properties: {
+			ip : "127.0.0.1",
+			port:"20013",
+		},
+
+		// use this for initialization
+		onLoad: function () {
+			var args = new KBEngine.KBEngineArgs();
+			args.ip = this.ip;
+			args.port = this.port;
+			KBEngine.create(args);
+		},
+	});
 
 Usage
 ---------------------
