@@ -1,25 +1,28 @@
 kbengine_js_plugins
 ========================
-
-
-
-¸Ä¶¯£¨2017/7/6£©
+ç¤ºä¾‹ï¼ˆ2017/7/22ï¼‰
 ---------------------
-	ÓÉÓÚCocos CreatorÊ¹ÓÃÑÏ¸ñÄ£Ê½µÄjs£¬¶øÔ­±¾µÄkbengine_js_pluginsÊÇ·ÇÑÏ¸ñÄ£Ê½µÄ£¬Òò´ËÎªÁË¼æÈİºÍ·½
-	±ãCocos Creator¿ª·¢µÄÍ¬Ñ§£¬±¾ÈË¶Ô´Ë½Å±¾×öÁËÏàÓ¦µÄĞŞ¸Ä£¬²¢¹²Ïí³öÀ´¡£
-	1£ºĞŞ¸ÄÁË¼Ì³ĞµÄÊµÏÖ·½Ê½£¨¾É°æ±¾Ê¹ÓÃcallee£¬ÑÏ¸ñÄ£Ê½ÏÂ²»ÄÜÓÃcallee£©
-	2£º±äÁ¿ÃûµÄ¶¨Òå£¨ÑÏ¸ñÄ£Ê½ÏÂ£¬È«¾Ö±äÁ¿ĞèÒªÏÔÊ½ÉùÃ÷£¬²¢ÇÒÎªÁË·ÀÖ¹È«¾ÖÃüÃûÎÛÈ¾£¬Òò´ËÔÚ±äÁ¿ÃûÇ°¼ÓÈëÁËvarÉùÃ÷Îª¾Ö²¿±äÁ¿£©
-	3£ºµ¼³öKBEngine¶ÔÏó
-	4£º¼¯³ÉGameObjectÔÚ¸Ã²å¼şÖĞ
+ Â  Â  Â  Â 1ã€æœ‰ç–‘é—®è¯·è”ç³»æˆ‘scanor@qq.comï¼Œå°±ä¸è¦åœ¨wikiä¸Šé¢ç•™è¨€äº†ï¼Œå¥½åƒwikiè¿™æ ·çš„ç”¨æ³•ä¸å¯¹ï¼Œå“ˆå“ˆ~~~
+	2ã€è¿™è¾¹æä¾›äº†ä¸€ä¸ªç®€å•çš„é›†æˆdemoï¼š https://github.com/scanor/CreatorPluginsDemo
+	3ã€å¦‚æœæˆ‘çš„ä»˜å‡ºå¯¹ä½ æœ‰ç”¨ï¼Œæ¬¢è¿ç‚¹èµ~~~
+
+æ”¹åŠ¨ï¼ˆ2017/7/6ï¼‰
+---------------------
+	ç”±äºCocos Creatorä½¿ç”¨ä¸¥æ ¼æ¨¡å¼çš„jsï¼Œè€ŒåŸæœ¬çš„kbengine_js_pluginsæ˜¯éä¸¥æ ¼æ¨¡å¼çš„ï¼Œå› æ­¤ä¸ºäº†å…¼å®¹å’Œæ–¹
+	ä¾¿Cocos Creatorå¼€å‘çš„åŒå­¦ï¼Œæœ¬äººå¯¹æ­¤è„šæœ¬åšäº†ç›¸åº”çš„ä¿®æ”¹ï¼Œå¹¶å…±äº«å‡ºæ¥ã€‚
+	1ï¼šä¿®æ”¹äº†ç»§æ‰¿çš„å®ç°æ–¹å¼ï¼ˆæ—§ç‰ˆæœ¬ä½¿ç”¨calleeï¼Œä¸¥æ ¼æ¨¡å¼ä¸‹ä¸èƒ½ç”¨calleeï¼‰
+	2ï¼šå˜é‡åçš„å®šä¹‰ï¼ˆä¸¥æ ¼æ¨¡å¼ä¸‹ï¼Œå…¨å±€å˜é‡éœ€è¦æ˜¾å¼å£°æ˜ï¼Œå¹¶ä¸”ä¸ºäº†é˜²æ­¢å…¨å±€å‘½åæ±¡æŸ“ï¼Œå› æ­¤åœ¨å˜é‡åå‰åŠ å…¥äº†varå£°æ˜ä¸ºå±€éƒ¨å˜é‡ï¼‰
+	3ï¼šå¯¼å‡ºKBEngineå¯¹è±¡
+	4ï¼šé›†æˆGameObjectåœ¨è¯¥æ’ä»¶ä¸­
 	
-ÔÚCocos CreatorÊ¹ÓÃ´Ë½Å±¾µÄ²½Öè£¨2017/7/6£©
+åœ¨Cocos Creatorä½¿ç”¨æ­¤è„šæœ¬çš„æ­¥éª¤ï¼ˆ2017/7/6ï¼‰
 ---------------------
-	1£º¸´ÖÆ´Ë½Å±¾µ½CreatorĞÂ½¨µÄ¹¤³ÌµÄ½Å±¾Ä¿Â¼ÏÂ£¨²»ÒªÊ¹ÓÃ²å¼şÄ£Ê½£©£¬Çë²Î¿¼cocos¹Ù·½ÎÄµµ£º
+	1ï¼šå¤åˆ¶æ­¤è„šæœ¬åˆ°Creatoræ–°å»ºçš„å·¥ç¨‹çš„è„šæœ¬ç›®å½•ä¸‹ï¼ˆä¸è¦ä½¿ç”¨æ’ä»¶æ¨¡å¼ï¼‰ï¼Œè¯·å‚è€ƒcocoså®˜æ–¹æ–‡æ¡£ï¼š
 	http://www.cocos.com/docs/creator/scripting/plugin-scripts.html
 	http://www.cocos.com/docs/creator/scripting/third-party-module.html
 	
-	2£ºÈ»ºó¿ÉÒÔ¶¨Òå×Ô¼ºµÄÊµÌåÀàÎÄ¼şÀıÈç£¬Account.js 
-	var KBEngine = require("kbengine");//Ê¹ÓÃrequireÒıÈëKBEngine
+	2ï¼šç„¶åå¯ä»¥å®šä¹‰è‡ªå·±çš„å®ä½“ç±»æ–‡ä»¶ä¾‹å¦‚ï¼ŒAccount.js 
+	var KBEngine = require("kbengine");//ä½¿ç”¨requireå¼•å…¥KBEngine
 	/*-----------------------------------------------------------------------------------------
 													entity
 	-----------------------------------------------------------------------------------------*/
@@ -30,9 +33,9 @@ kbengine_js_plugins
 			this._super();
 			KBEngine.Event.fire("onLoginSuccessfully", KBEngine.app.entity_uuid, this.id, this);
 		},
-	}
-	3£º»òÕßÔÚcocos creatorµÄ×é¼şÀàÀïÃæÊ¹ÓÃ£¬ÀıÈç£ºClientApp.js
-	var KBEngine = require("kbengine");//Ê¹ÓÃrequireÒıÈëKBEngine
+	});
+	3ï¼šæˆ–è€…åœ¨cocos creatorçš„ç»„ä»¶ç±»é‡Œé¢ä½¿ç”¨ï¼Œä¾‹å¦‚ï¼šClientApp.js
+	var KBEngine = require("kbengine");//ä½¿ç”¨requireå¼•å…¥KBEngine
 	cc.Class({
 		extends: cc.Component,
 
@@ -62,7 +65,7 @@ Usage
 		KBEngine.create(args);
 
 	2: Implment the KBE defined entity (including the client part)
-		See: kbengine\kbengine_demos_assets\scripts\entities.xml£¬hasClient="true" need to implment
+		See: kbengine\kbengine_demos_assets\scripts\entities.xmlï¼ŒhasClient="true" need to implment
 			<Account hasClient="true"></Account>
 			<Monster hasClient="true"></Monster>
 			<Gate hasClient="true"></Gate>
