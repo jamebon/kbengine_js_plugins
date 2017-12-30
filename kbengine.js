@@ -62,7 +62,7 @@ KBEngine.Class.extend = function(props) {
 	return newClass;
 };
 // export
-global.Class = KBEngine.Class;
+window.Class = KBEngine.Class;
 
 /*-----------------------------------------------------------------------------------------
 												global
