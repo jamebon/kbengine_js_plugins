@@ -1,3 +1,5 @@
+！！！！！！请注意，本修改版插件已过期，并且不再维护，有需要的朋友请自行根据 https://github.com/kbengine/kbengine_js_plugins 这个库的最新版修改使用！！！！！！
+
 kbengine_js_plugins
 ========================
 示例（2017/7/22）
