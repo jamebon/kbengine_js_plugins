@@ -2,8 +2,8 @@ kbengine_js_plugins
 ========================
 示例（2017/7/22）
 ---------------------
-        1、有疑问请联系我scanor@qq.com，就不要在wiki上面留言了，好像wiki这样的用法不对，哈哈~~~
-	2、这边提供了一个简单的集成demo： https://github.com/scanor/CreatorPluginsDemo
+        1、有疑问请联系我jamebon@qq.com，就不要在wiki上面留言了，好像wiki这样的用法不对，哈哈~~~
+	2、这边提供了一个简单的集成demo： https://github.com/jamebon/CreatorPluginsDemo
 	3、如果我的付出对你有用，欢迎点赞~~~
 
 改动（2017/7/6）
